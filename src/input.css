@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1::before {
+  content: "██";
+  margin-right: 10px;
+  display: inline-block;
+}
+
+h3::before {
+  content: "▒▒▒▒";
+  margin-right: 10px;
+  display: inline-block;
+}
+
+@layer components {
+  .h1-style {
+    @apply text-lg text-h1-color;
+  }
+
+  .h3-style {
+    @apply text-lg text-h3-color;
+  }
+  .article-style {
+    @apply grid grid-cols-1 gap-3;
+  }
+  .list {
+    @apply list-disc list-inside space-y-5 pl-3;
+  }
+
+  a {
+    @apply text-link-color underline underline-offset-4;
+  }
+}
