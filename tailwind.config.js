@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     fontFamily: {
-      body: ['JetBrains Mono', 'monospace'],
+      body: ["JetBrains Mono", "monospace"],
     },
     extend: {
       colors: {
@@ -13,7 +13,7 @@ module.exports = {
         "h3-color": "#2299CC",
         "h4-color": "#52528E",
         "text-color": "#C8C8C8",
-        "link-color": "#F45C5C",
+        "link-color": "#ff7373",
       },
     },
   },

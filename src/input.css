@@ -8,7 +8,7 @@ h1::before {
   display: inline-block;
 }
 
-h3::before {
+h2::before {
   content: "▒▒▒▒";
   margin-right: 10px;
   display: inline-block;
@@ -19,8 +19,8 @@ h3::before {
     @apply text-lg text-h1-color;
   }
 
-  .h3-style {
-    @apply text-lg text-h3-color;
+  .h2-style {
+    @apply text-lg text-h2-color;
   }
   .article-style {
     @apply grid grid-cols-1 gap-3;
